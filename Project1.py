@@ -46,6 +46,7 @@ def main():
     vf2train0 = variance(feature2train0)
     vf1train1 = variance(feature1train1)
     vf2train1 = variance(feature2train1)
+    # ['ASUId', Mean_of_feature1_for_digit0, Variance_of_feature1_for_digit0, Mean_of_feature2_for_digit0, Variance_of_feature2_for_digit0 , Mean_of_feature1_for_digit1, Variance_of_feature1_for_digit1, Mean_of_feature2_for_digit1, Variance_of_feature2_for_digit1, Accuracy_for_digit0testset, Accuracy_for_digit1testset]
 
     print(["1227881670", mf1train0, vf1train0, mf2train0, vf2train0, mf1train1, vf1train1, mf2train1, vf2train1,
            Accuracy_for_digit0testset, Accuracy_for_digit1testset])

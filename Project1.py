@@ -68,9 +68,9 @@ def main():
     print (stdtrain0)'''
     # each of the matrices in the train0 and train1 has 28 elements
 
-    print([len(train0), len(train1), len(test0), len(test1)])
+    # print([len(train0),len(train1),len(test0),len(test1)])
 
-    print('Your trainset and testset are generated successfully!')
+    # print('Your trainset and testset are generated successfully!')
     pass
 
 
